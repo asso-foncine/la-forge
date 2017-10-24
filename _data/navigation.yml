@@ -1,0 +1,20 @@
+title: "La Forge"
+
+links:
+  - title: "Réalisations"
+    id: "menu-dp-1"
+    subcategories:
+      - subtitle: "Toiture"
+        subhref: "/#"
+      - subtitle: "Dalle"
+        subhref: "/#"
+
+  - title: "Actualités"
+    href: "/actu"
+
+  - title: "Histoire"
+    href: "/histoire"
+
+  - title: "Informations"
+    href: "infos"
+

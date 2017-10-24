@@ -1,0 +1,35 @@
+<!-- Dropdown Structure -->
+{% assign menu_items = site.data.navigation.links %}
+{% for item in menu_items %}
+  {% if item.id %}
+  <ul id="{{ item.id }}" class="dropdown-content">
+    {% for sub_item in item.subcategories %}
+    <li><a href="{{ sub_item.subhref }}">{{ sub_item.subtitle }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+{% endfor %}
+
+<div class="navbar-fixed scrollspy ">
+  <nav class="navigation">
+    <div class="nav-wrapper container ">
+      <a href="{{ "/" | relative_url }}" class="brand-logo">{{ site.data.navigation.title | escape }}</a>
+      <ul class="right hide-on-med-and-down">
+        {% for item in menu_items %}
+          {% if item.id %}
+          <li>
+            <a class="dropdown-button " href="#!" data-activates="{{ item.id }}">
+              {{ item.title }}
+              <i class="material-icons right">
+                  arrow_drop_down
+              </i>
+            </a>
+          </li>
+          {% else %}
+          <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+          {% endif %} 
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</div>
