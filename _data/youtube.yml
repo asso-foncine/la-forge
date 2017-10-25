@@ -1,0 +1,15 @@
+
+id: yt_gallery_0
+title: Les vidéos
+href: "/video"
+href-title: Voir la galerie
+desc: |
+  Retrouvez toutes les vidéos réalisées lors des travaux.
+  Vous pouvez également consulter notre chaîne Youtube.
+  Bon visionnage!
+thumb: /assets/img/gallery/youtube-gallery.jpg
+channel-title: "Aller sur Youtube"
+channel-href: "https://www.youtube.com/playlist?list=PLy9iyGgpLsK_7Z71CxW0nt8rBP5-dMGS5"
+videos:
+  - id: breBdHR_iWc
+  - id: BsSrok11Di8

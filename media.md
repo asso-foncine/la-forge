@@ -1,6 +1,8 @@
 ---
 layout: media
 title: Médias
-permalink: /media/
+video-title: Les vidéos
+photo-title: Les photos
+photo-href-title: Voir les photos
+permalink: /media
 ---
-

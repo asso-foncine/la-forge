@@ -7,25 +7,34 @@
     
     {% include header.html %}
 
-    <!--main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main-->
+  
     <main>
-      <div class="">
+      
         {{ content }}
-      </div>
+      
     </main>
 
     {% include footer.html %}
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src={{ "/assets/js/materialize.min.js" | relative_url }}></script>
+    <script type="text/javascript" src={{ "/assets/js/jquery.matchHeight.js" | relative_url }}></script>
     <script>
       $( document ).ready(function() {
           console.log( "document loaded" );
           $(".dropdown-button").dropdown();
           $('.parallax').parallax();
+          $('.home-card').matchHeight({
+                byRow: true,
+                property: 'height',
+                target: null,
+                remove: false
+          });
+          $('.fixed-height-card').matchHeight({
+                byRow: true,
+                property: 'height',
+                target: null,
+                remove: false
+          });
       });
    
       $( window ).on( "load", function() {

@@ -6,27 +6,30 @@ layout: home
 title: "Les amis de la forge Liboz"
 desc: "Notre association a pour objet de blablaet de cdncdw"
 contact: laforge@mail.com
-href: "/"
+href: "/la-forge"
 cards:
  - title: "Actualités"
    desc: >
-    Suivez l'actualité de la forge
-    en lisant les billets du blog.
-   href: "/histoire"
+    Suivez l'actualité de la Forge
+    en lisant les billets du blog
+   href: "/"
    icon: flash_on
 
  - title: "Histoire"
-   desc: "vvfqvefqvef"
-   href: ""
+   desc: >
+    La naissance de la Forge Liboz
+   href: "/histoire"
    icon: "access_time"
 
  - title: Travaux
-   desc: "vfvfevevefvfevefvefvfevfevefv"
-   href: ""
+   desc: >
+    Comment nous avons restauré le site
+   href: "/travaux"
    icon: "build" 
 
  - title: "Médias"
-   desc: "vfvfevevefvfevefvefvfevfevefv"
+   desc: >
+    Nos photos, nos vidéos
    href: "/media"
    icon: "camera_roll"   
 

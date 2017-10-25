@@ -5,6 +5,10 @@
 // Imports
 @import "materialize";
 
+.home-card {
+
+}
+
 .parallax-container {
   height: 500px;
 }
@@ -28,3 +32,32 @@
 .page-footer {
   @extend .blue-grey, .darken-3;  
 }
+//Media gallery
+.media-card-title {
+  @extend .blue-grey, .darken-3, .white-text; 
+}
+.main-menu {
+  padding: 0 2rem 0 2rem
+}
+.media-nav {
+  @extend .blue-grey, .darken-3, .white-text; 
+  padding-left: 2rem
+}
+.media-header {
+  @extend .blue-grey, .darken-3, .white-text; 
+}
+.media-title {
+  margin: .82rem 0 .656rem 0
+}
+
+.video-gallery-thumb{
+  width: 11rem;
+}
+.image-galery.thumb {
+  width: 11rem;
+}
+.card-footer {
+  height: 4rem;
+  max-height: 4rem;
+}
+
