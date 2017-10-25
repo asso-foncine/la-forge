@@ -7,6 +7,6 @@ desc: Un ferraillage solide de la dalle nord
 href-title: Voir
 thumb: 23.jpg
 auto_increment:
-    size: 25
+    size: 29
 images:
 ---

@@ -6,6 +6,6 @@ title: Coulage dalle Nord
 desc: Nous avons coulé enfin coulé la dalle
 thumb: 12.jpg
 auto_increment:
-    size: 23
+    size: 19
 images:
 ---
