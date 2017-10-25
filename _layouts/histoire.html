@@ -2,10 +2,41 @@
 layout: default 
 ---
 
+<nav class="media-nav">
+    <div class="nav-wrapper">
+        <div class="col s12">
+            <a href={{ "/" | relative_url }} class="breadcrumb">Forge</a>
+            <a href="#!" class="breadcrumb">{{ page.title }}</a>
+        </div>
+    </div>
+</nav>
+
 <div class="container">
     <div class="row">
+        <div class="col hide-on-small-only m3 l2 fixed">
+            <div class="fixed-pos">
+                <ul class="section table-of-contents">
+                    {% for section in site.histoire %}
+                    <li>
+                        <a class="history-menu" href={{ "#" | append: section.reference }}>
+                            <h6>{{ section.texte-frise }}</h6>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
         <div class="col s12 m9 l10">
-            
+            <div id="md-history">
+                {% for section in site.histoire %}
+                <div id={{ section.reference }} class="section scrollspy history-section">
+                    <h5 class="history-header header">{{ section.titre }}</h5>
+                    <div class="md-content">
+                        {{ section.content }}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>

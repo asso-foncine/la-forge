@@ -61,3 +61,10 @@
   max-height: 4rem;
 }
 
+.md-content img {
+  @extend .responsive-img;
+}
+
+#md-history img {
+  @extend .responsive-img;
+}

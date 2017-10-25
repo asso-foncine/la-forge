@@ -35,6 +35,11 @@
                 target: null,
                 remove: false
           });
+          $('.scrollspy').scrollSpy();
+          $('.fixed-pos').pushpin({
+            offset: 120
+          });
+          $('.md-content').find('img').addClass( "responsive-img" );
       });
    
       $( window ).on( "load", function() {

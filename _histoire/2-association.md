@@ -1,0 +1,10 @@
+---
+reference: association
+titre: Naissance de l'association
+texte-frise: Association
+---
+![](http://jeanmichel.guyon.free.fr/monsite/histoire/foncine/liboz5.jpg)
+
+Avec ses deux roues, fixées au mur, à dix mètres de la route, on ne peut pas ne pas la voir. Les passants sont surpris : "Laisser tomber en ruine un si bel outil, datant de deux siècles et si bien exposé, c'est bien dommage, c'est ridicule, c'est honteux …". Les fonciniers d'âge moyen pensent "c'est encore la Marthe, c'est bien la fille de sa mère ", et pour l'exilé qui a passé sa jeunesse en face de cette forge, et qui prenait plaisir à descendre sur la passerelle, pour admirer d'un côté les truites et de l'autre l'eau claire et vive faire tourner et grincer les roues, c'est presque une larme.
+
+Et puis la bonne nouvelle arrive. Les héritiers acceptent de céder ce bâtiment. La commune est heureuse. Elle va pouvoir sauver cette maison, en commençant par son toit, car les nombreux hivers d'attente n'ont rien arrangé. Puis ce sera le tour des roues et de ce qui demeure encore à l'intérieur : forge, enclumes, outils de toutes sortes, il y a même un four à pain. Ce sera le départ d'un beau projet qui aboutira peut-être à un musée. Les greniers des maisons centenaires aux alentours, cachent assez de curiosités pour venir l'alimenter. On a bien transféré au Musée du Temps de Besançon les horloges du "Trappe" (Henri Blondeau-Trappe du Tatchet) et qui, sauf erreur, n'ont encore jamais été exposées ! Le petit sentier et la passerelle verront à nouveau passer du monde. Sans doute, faudra t'il les sécuriser. Souhaitons que tout cela ne soit pas qu'un rêve ? Car la route est encore longue et les études, le travail et les choix à faire ne manqueront pas et prendront du temps. Et la commune n'est pas riche, même si elle s'est offert une belle mairie.
